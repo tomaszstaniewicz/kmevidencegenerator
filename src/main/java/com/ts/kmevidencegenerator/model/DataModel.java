@@ -29,7 +29,7 @@ public class DataModel {
         this.kmEnd = kmEnd;
         this.zPrzeniesieniaWartosc = zPrzeniesieniaWartosc;
         this.yearMonth = LocalDate.now().getDayOfMonth() > 27 ? YearMonth.now() : YearMonth.now().minusMonths(1);
-        //this.yearMonth = YearMonth.of(2025, 7);
+        //this.yearMonth = YearMonth.of(2026, 7);
         this.trips = calculateTrips();
         this.zPrzeniesieniaKm = zPrzeniesieniaKm;
     }
